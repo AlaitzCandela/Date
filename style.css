@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+html {
+    height: 99%;
+}
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#divImage{
+    width: 50%;
+}
+img{
+    width: 100%;
+}
+
+.buttons{
+    margin-top:5%;
+}
+
+.btn-outline-dark{
+    color:black;
+    border-color:black;
+}
+
+.btn-outline-dark:hover{
+    color:white;
+    background-color:black;
+}
